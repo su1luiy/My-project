@@ -3,10 +3,18 @@
 int main()
 {
     char name[255];
+<<<<<<< HEAD
     printf("Введите Ваше имя: ");
     fgets(name, 255, stdin);
     printf("length = %d\n", strlen(name)); /* debug line */
     name[strlen(name)-1] = '\0'; /* remove the newline at the end */
     printf("Привет %s!\n", name);
+=======
+    printf("Enter your name: ");
+    fgets(name, 255, stdin);
+    printf("length = %d\n", strlen(name)); /* debug line */
+    name[strlen(name)-1] = '\0'; /* remove the newline at the end */
+    printf("Hello %s!\n", name);
+>>>>>>> d8c50a3465700708166eb7e3c7c6ae543d0af31f
     return 0;
 }
